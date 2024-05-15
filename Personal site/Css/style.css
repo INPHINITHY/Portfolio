@@ -20,7 +20,8 @@ a:hover{
 footer a{
     color: #bcaa96 ;
 }
- foooter a:hover{
+
+ footer a:hover{
     color: #bcaa96 ;
     text-decoration:none ;
  }
@@ -43,7 +44,9 @@ footer a{
 /* Work Experienc/
 /*Education/
 /*footer*/
-footer{
+footer {
     background: #222;
+ 
 }
+
 
