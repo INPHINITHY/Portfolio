@@ -5,9 +5,19 @@
  Light gray  #d3d4d6
  Off-white  #f6f6f6
  */
-/*GLLOBAL*/
+/*GLOBAL*/
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
 body{
     background: #f6f6f6 ;
+    height: 100%;
+    margin: 0;/*fits boxes and images to the edges of the page*/
+    margin-top: -25px;
 }
 /*links*/
 a{
@@ -31,6 +41,13 @@ footer a{
     color: #f6f6f6;
     text-decoration: none;
 }
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;/*pulls content into the middle of the page*/
+    padding: 30px;/*gives cool space between elemnets*/
+   
+}
 /*Home----------------*/
 .home{
     background: url(../images/bg-home-office-studio.jpg) no-repeat;
@@ -38,15 +55,40 @@ footer a{
 }
 .home .content-wrapper{
     background: rgb(255 255 255 /0.9);
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
 }
-/*Resume/
+
+/*Resume*/
+.resume header::before{
+    background: url(../images/bg-home-office-studio.jpg);
+    background-size: cover;
+    background-position: center;
+    content: "";/*needed to add header images*/
+    display: block;
+    height: 376px;
+}
+
 /*Profile/
 /* Work Experienc/
 /*Education/
 /*footer*/
 footer {
     background: #222;
- 
+    
 }
 
+.socials{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.socials li{
+    display: inline-block;
+}
+
+.socials img{
+    width: 32px;
+}
 
