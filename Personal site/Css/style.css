@@ -46,20 +46,28 @@ footer a{
     margin: 0 auto;
     max-width: 900px;/*pulls content into the middle of the page*/
     padding: 30px;/*gives cool space between elemnets*/
+
    
 }
 /*Home----------------*/
 .home{
     background: url(../images/bg-home-office-studio.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 .home .content-wrapper{
-    background: rgb(255 255 255 /0.9);
+   
     margin: 0 auto;
     max-width: 900px;
     padding: 30px;
+    flex: 1 0 auto;/*in conjuntcion with the display propety it moved the footer down by enlarging the space for the content*/
 }
-
+.content-bg{
+ background: rgb(255 255 255 /0.9);
+ padding: 30px;
+ margin-top: -10px;
+}
 /*Resume*/
 .resume header::before/*needed to put something before another */{
     background: url(../images/bg-home-office-studio.jpg);
@@ -76,6 +84,15 @@ footer a{
 .resume-section h2{
     border-bottom: 2px dashed #d3d4d6;
 }
+ .download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+    
+ }
 /*Profile*/
 .project-item{
     display: flow-root;
@@ -92,19 +109,27 @@ footer a{
 /*footer*/
 footer {
     background: #222;
-    
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: -27px;
 }
 
 .socials{
     list-style-type: none;
     padding: 0;
-    
+  
 }
 .socials li{
     display: inline-block;
+    margin-left: 10px;
 }
 
 .socials img{
     width: 32px;
 }
 
+.socials img:hover{
+    opacity: 0.5;
+}
