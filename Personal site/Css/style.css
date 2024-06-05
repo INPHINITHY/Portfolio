@@ -9,6 +9,7 @@
 html{
     box-sizing: border-box;
     height: 100%;
+    font-size: 62.5%;/*setting default to10px*/
 }
 *,*:before,*:after{
     box-sizing: inherit;
@@ -18,7 +19,24 @@ body{
     height: 100%;
     margin: 0;/*fits boxes and images to the edges of the page*/
     margin-top: -25px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;/*sive relative to the default browser font size*/
+    line-height: 1.4;
 }
+
+h1,h2,h3{
+font-family: 'Caveat',cursive;
+margin: 0;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+ h3{font-size: 2.2rem;}
 /*links*/
 a{
     color:#3c8453 ;
@@ -40,7 +58,14 @@ footer a{
     background: #3c8453;
     color: #f6f6f6;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 4px;
 }
+
+
 
 .content-wrapper{
     margin: 0 auto;
@@ -91,6 +116,7 @@ footer a{
     background: #3c8453;
     color: #f6f6f6;
     text-decoration: none;
+
     
  }
 /*Profile*/
@@ -108,7 +134,7 @@ footer a{
 .work-item{
     display: grid;
     grid-template-columns: 300px 1fr;
-    column-gap: 20px;
+    column-gap: 2px;
 }
 /*Education/
 /*footer*/
