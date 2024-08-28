@@ -1,9 +1,8 @@
 /*yellow colour:#F3BE43*/
 /*Global*/
-html,body{
+html{
   box-sizing: border-box;   
- height: 100%;
-     
+ height: 100%;    
  }
  body{
      background: black;
@@ -60,11 +59,29 @@ html,body{
      align-items: center;
      margin: auto;
   } 
- 
+
+  /*footer*/
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;/*fixed the space issue with the footer*/
+  }
+  footer ul li {
+    list-style: none;
+   margin: 10px;
+  }
+  table{
+    background-color: black;
+  }
+  footer ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+ .links{font-size: 1.1em;}
    /*Home*/
   
-  .col p{
-     text-align: center;}
+
  .hoverText {
          position: relative;
          display: inline-block;
