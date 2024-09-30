@@ -1,0 +1,29 @@
+.btn{
+    border-radius: 25px;
+    padding: 05px 30px 05px 30px;
+    border: 3px solid #70b1ff;
+    background-color: #70b1ff;
+    color:  #36373a ;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #36373a;
+    color: #70b1ff;
+    transform: scale(1.05);
+}
+
+.btn-hol{
+    border-radius: 25px;
+    padding: 05px 30px 05px 30px;
+    border: 3px solid #70b1ff;
+    background-color: #36373a ;
+    color:  #70b1ff;
+    font-size: 20px;
+}
+
+.btn-hol:hover{
+    background-color: #70b1ff;
+    color: #36373a;
+    transform: scale(1.05);
+}

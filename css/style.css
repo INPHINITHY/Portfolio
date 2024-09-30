@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Framework by Austin Dwomoh
+*/
+@import url(./../css/nav.css);
+@import url(./../css/genral.css);
+@import url(./../css/grids.css);
+@import url(./../css/customaddition.css);
+@import url(./../css/cards.css);
+@import url(./../css/footer.css);
+@import url(./../css/button.css);
+* {
+    box-sizing: border-box; /* Applies to all elements */
+}
+
+
+html, body{
+	margin:10px !important;
+	margin-top: 0 !important; 
+	padding:0px !important;
+	font-family: "Noto Sans", sans-serif;
+}
+img{
+	max-width:100% !important;	
+}
+
+.container{
+	max-width:1920px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.content{
+	width:100%;
+	display:inline-block;
+	padding-bottom:20px;
+}
+
+.content img{
+	width: 100%;
+}
+
+.header{
+    width: 100%;
+}
+
+#logo{
+	margin:0px 5px;
+	padding:4px 8px;
+	width:70px;
+	height:40px;
+	border-radius:40px;
+	border-radius: 50%;
+}
+
+
+
+
+.no-margin{
+	margin:0px !important;
+}
+
+.no-padding{
+	padding:0px !important;	
+}
+
+.no-bold{
+	font-weight:normal !important;	
+}
+
+.no-border{
+	border:none !important;
+}
+
+.center{
+	text-align:center;	
+}
+
+.block{
+	display:block !important;	
+}
+
+
