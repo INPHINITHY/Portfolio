@@ -6,7 +6,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 /* -------------------- Start Navigation -------------------- */
 #nav{
 	width: 100%;
-	z-index:2;
+	z-index:10;
 	position:fixed;
 	font-size:16px;
 	background-color: #36373a ;
