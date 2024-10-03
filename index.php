@@ -5,10 +5,16 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="./../assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./../assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./../assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./../assets/favicon_io/site.webmanifest">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="./../css/style.css" rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
 </head>
 <body>
@@ -18,7 +24,7 @@
   
 <!--Main Content Start-->
   
-  <div class="container">
+<div class="container">
   <div class="grid-two-columns" style="place-items: center;height: 100vh;" >
     <div>
       <span id="hero-text" >
@@ -26,40 +32,56 @@
         <p>A Computer Science Major, At Augustana College, With A Love and Knack For Tecnology.</p>
       </span>
       <span style="margin:auto;">
-          <button class="btn">Resume</button>
+          <button class="btn"><a href="./../pages/resume.php">Resume</a></button>
           <button class="btn-hol">Projects </button>
         </span>
     </div>
     <div >
-        <img  class="card-img" src="assets\1st.jpg" alt="">
+        <img  class="card-img" src="assets/images/1st.jpg" alt="">
     </div>
   </div>
-</div>STILL IN THE WORKS
-  <div class="container">
-    <div class="grid-two-columns" style="place-items: center;height: 100vh;">
-      <div>
-          <img class="card-img" src="assets\2nd.jpg" alt=""/>
-      </div>
+</div>
 
-        <div>
-          <div class="card">
-            <h3>A little About ME</h3>
-            <ul>
-              <li>Name:Austin Dwomoh</li>
-              <li>Age:20</li>
-              <li><a href="mailto:dwomohaustin14@gmail.com" style="text-decoration: none; color: beige">Personal Mail</a></li>
-              <li><a href="tel:+13096314966"style="text-decoration: none; color: beige">Phone</a></li>
-            </ul>
+<div class="container" style="background-color:#08A4BD">
+    <div class="grid-two-columns" style="place-items:center;">
+      <div>
+        <div class="flex-container">
+          <div class="card" style="background-color:#F7F7FF">
+            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
+              <div class="card-content">
+                <h1>MEGA</h1>
+                <p>A website for The Mobile Esports Gaming Association</p>
+                <div class="subtitle"></div>
+                <div class="card-details">
+                    <div class="card-details-inner">
+                      <div class="read-more"><a class="buttonc" href="https://megagh.xyz">Go To Project</a></div>
+                    </div>
+                </div>
+              </div>
           </div>
         </div>
-    </div>
-  </div>
-    
-<!--   <div class="grid-three-columns" style="place-items: center;height: 100vh;"><! for projects preview add a skilss section-
-      <div></div>
-      <div></div>
-      <div></div>
-    <div> -->
+      </div>
+      <div>
+      <div class="flex-container">
+          <div class="card" style="background-color:#F7F7FF">
+            <div class="card-image" style="background-image: url(./../assets/images/ouroboros.png)"></div>
+              <div class="card-content">
+                <h1>OUROBOROS</h1>
+                <p>A Discord tournament bot thah has a couple of general features</p>
+                <div class="subtitle"></div>
+                <div class="card-details">
+                    <div class="card-details-inner">
+                      <div class="read-more"><a class="buttonc" href="#">Go To Project</a></div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    </div> 
+</div>
+
 <footer class="footer">
     <?php include('includes/footer.php'); ?>
 </footer>

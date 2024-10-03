@@ -89,8 +89,8 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 }
 /* -------------------- End Navigation -------------------- */
 
-@media only screen and (max-width:720px){
-	/* -------------------- Start Navigation -------------------- */
+/* @media only screen and (max-width:720px){
+	* -------------------- Start Navigation -------------------- *
 	#nav{
         position: relative;
     }
@@ -113,7 +113,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 		font-size:18px;	
 	}
  
-    /* first level */
+    * first level *
  
     #nav > ul{
         height: auto;
@@ -135,7 +135,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 		padding:4px 0px;
 	}
 
-    /* second level */
+    * second level *
 	
  
     #nav li ul{
@@ -149,5 +149,5 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 		padding:0.5em 0;
 		margin:0.25em 0;
 	}
-	/*End Navigation*/
-}
+	*End Navigation*
+} */

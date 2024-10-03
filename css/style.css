@@ -11,6 +11,7 @@ Framework by Austin Dwomoh
 @import url(./../css/cards.css);
 @import url(./../css/footer.css);
 @import url(./../css/button.css);
+@import url(./../css/resume.css);
 * {
     box-sizing: border-box; /* Applies to all elements */
 }
