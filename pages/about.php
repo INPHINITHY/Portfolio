@@ -17,14 +17,14 @@
   <link href="./../css/style.css" rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
 </head>
-  <body>
+  <body class="body-dark">
   <header>
     <?php include('./../includes/nav.php');?>
   </header>
-    <div class="container" style='background-color:white'>
-      <div class="grid-two-columns"  style="place-items: center;">
+    <div class="container-lm" style='background-color:white'>
+      <div class="grid-two-columns"  style="place-items: center;padding-top:50px">
           <div>
-            <img class="card-about" src="./../assets/images/3rd.jpg" alt="">
+            <img class="card-img" src="./../assets/images/3rd.jpg" alt="">
           </div>
           <div>
             <h2>About Me</h2>
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="container" style='background-color:#AA767C;'>
+    <div class="container-lm" style='background-color:#AA767C;'>
       <div class="grid-two-columns"  style="place-items: center;">
         <div>
           <h2>Education</h2>
@@ -52,15 +52,15 @@
             </ul>
         </div>
         <div>
-          <img class="card-about" src="./../assets/images/2nd.jpg" alt="">
+          <img class="card-img" src="./../assets/images/2nd.jpg" alt="">
         </div>
       </div>
     </div>
 
-    <div class="container" style="background-color:#08A4BD">
+    <div class="container-lm" style="background-color:#08A4BD">
       <div class="grid-two-columns" style="place-items: center;">
         <div>
-          <img class="card-about" src="./../assets/images/6th.jpg" alt="">
+          <img class="card-img" src="./../assets/images/6th.jpg" alt="">
         </div>
         <div> 
           <h2>Work experience</h2>

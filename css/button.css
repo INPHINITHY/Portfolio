@@ -25,3 +25,25 @@
     background-color:#0056b3;
     transform: scale(1.05);
 }
+
+  
+.button-card {
+	display: block;
+	font-size: 1rem;
+	background: #9E829C;
+	border: 1px solid #9E829C;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	text-align: center; }
+.button-card:hover, .button-card:focus {
+	  background: #9E829C;
+	  border: 1px solid #9E829C; }
+
+.button-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+     } 

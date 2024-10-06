@@ -17,13 +17,13 @@
   <link href="./../css/style.css" rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
 </head>
-<body id="resbody">
-    <section id="contact-info">
+<body class="resbody">
+    <section class="card-section  card-section-contact-info">
         <h2>Austin Nana Dwomoh Jr</h2>
         <div class="grid-two-columns" style="place-items: center">
         <div>
             <ul>
-            <section id="top">
+            <section class="card-section-vertical-list card-section">
                 
                     <li><a href="mailto:dwomohaustin14@gmail.com" title="personal-email"><i class="bi bi-envelope-at-fill"></i></a></li>
                     <li><a href="tel:+13096314966" title="Contact"><i class="bi bi-phone-fill"></i></a></li>
@@ -36,7 +36,7 @@
             </ul>
         </div>
         <div> 
-            <section style="width:300px;">
+            <section class="card-section" style="width:300px;">
                 <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">
                     <button type="button" class="btn">Download Resume</button>
                 </a>
@@ -48,7 +48,7 @@
         
     </section>
 
-    <section id="education">
+    <section class="card-section">
         <h3>Education</h3>
         <p><strong>Augustana College | Rock Island, IL</strong> (Graduation Date: May 2027)</p>
         <ul>
@@ -58,7 +58,7 @@
         <p>Relevant coursework: Web Development (W3 Schools), Calculus, Fundamentals of Programming (Python, JavaScript - FreeCodeCamp), Intro to Computer Science.</p>
     </section>
 
-    <section id="work-experience">
+    <section class="card-section">
         <h3>Work Experience</h3>
 
         <h4>WEB Guild Developer (Non-Profit) - Feb 2024 - Present</h4>
@@ -83,7 +83,7 @@
         </ul>
     </section>
 
-    <section id="projects">
+    <section class="card-section">
         <h3>Projects</h3>
         <h4>Personal Portfolio</h4>
         <ul>
@@ -107,11 +107,29 @@
         </ul>
     </section>
 
-    <section id="skills">
+    <section class="card-section-2-columns card-section">
         <h3>Skills</h3>
-        <ul>
-            <li>Technical Skills: Python, JavaScript, Bootstrap 5, Sass, React JS, Front End Development, Adobe Photoshop, SQL, PHP</li>
-            <li>Soft Skills: Communication, Collaboration, Problem-solving, Adaptability, Leadership, Flexibility, Effectiveness</li>
+        <ul class="card-section" style="padding-left:20px">
+            <li><b>Technical Skills:</b></li>
+            <li>Python </li>
+            <li>JavaScript</li>
+            <li>Bootstrap 5</li>
+            <li>Sass</li>
+            <li>React JS</li>
+            <li>Front End Development</li>
+            <li>Adobe Photoshop</li>
+            <li>SQL</li>
+            <li>PHP</li>   
+        </ul>
+        <ul class="card-section" style="padding-left:20px">
+            <li><b>Soft Skills:</b></li>
+            <li>Communication </li>
+            <li>Collaboration</li>
+            <li>Problem-solving</li>
+            <li>Adaptability</li>
+            <li>Leadership</li>
+            <li>Flexibility</li>
+            <li>Effectiveness</li>
         </ul>
     </section>
 </body>

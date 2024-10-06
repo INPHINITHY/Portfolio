@@ -4,85 +4,35 @@
 /*
 Framework by Austin Dwomoh
 */
-@import url(./../css/nav.css);
-@import url(./../css/genral.css);
-@import url(./../css/grids.css);
-@import url(./../css/customaddition.css);
-@import url(./../css/cards.css);
-@import url(./../css/footer.css);
+@import url(./../css/accordions.css);
+@import url(./../css/alerts.css);
+@import url(./../css/body.css);
+@import url(./../css/breadcrumbs.css);
 @import url(./../css/button.css);
-@import url(./../css/resume.css);
-* {
-    box-sizing: border-box; /* Applies to all elements */
-}
+@import url(./../css/cards.css);
+@import url(./../css/container.css);
+@import url(./../css/customaddition.css);
+@import url(./../css/footer.css);
+@import url(./../css/grids.css);
+@import url(./../css/hero.css);
+@import url(./../css/id.css);
+@import url(./../css/nav.css);
+@import url(./../css/pagination.css);
+@import url(./../css/slideshow.css);
+@import url(./../css/typography.css);
 
-
-html, body {
-	height: 100%;
-	margin: 0;
-	font-family: "Noto Sans", sans-serif;
-  }
-img{
-	max-width:100% !important;	
-}
-
-.container{
-	max-width:1920px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.content{
-	width:100%;
-	display:inline-block;
-	padding-bottom:20px;
-}
-
-.content img{
-	width: 100%;
-}
-
-.header{
-    width: 100%;
-}
-
-#logo{
-	margin:0px 5px;
-	padding:4px 8px;
-	width:70px;
-	height:40px;
-	border-radius:40px;
-	border-radius: 50%;
-}
+/*
+Framework by Austin Dwomoh
+*/
 
 
 
 
-.no-margin{
-	margin:0px !important;
-}
 
-.no-padding{
-	padding:0px !important;	
-}
 
-.no-bold{
-	font-weight:normal !important;	
-}
 
-.no-border{
-	border:none !important;
-}
 
-.center{
-	text-align:center;	
-}
 
-.block{
-	display:block !important;	
-}
+
 
 

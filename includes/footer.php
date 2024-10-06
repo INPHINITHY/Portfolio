@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-lm">
   <div class="grid-two-columns">
         <div>
             <p>Copyright &copy; 2024 || Developed by Inphinithy</p> 

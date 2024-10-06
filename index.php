@@ -17,24 +17,27 @@
   <link href="./../css/style.css" rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
 </head>
-<body>
+<body class="body-dark">
   <header>
     <?php include('includes/nav.php');?>
   </header>
   
 <!--Main Content Start-->
   
-<div class="container">
-  <div class="grid-two-columns" style="place-items: center;height: 100vh;" >
+<div class="container-lm">
+  <div class="grid-two-columns" style="place-items: center;height: 100vh;padding-top:40px" >
     <div>
       <span id="hero-text" >
         <h1>Hi, I am Austin N. Dwomoh</h1>
         <p>A Computer Science Major, At Augustana College, With A Love and Knack For Tecnology.</p>
       </span>
-      <span style="margin:auto;">
-          <button class="btn"><a href="./../pages/resume.php">Resume</a></button>
-          <button class="btn-hol">Projects </button>
-        </span>
+      <div class="grid-two-columns" style="place-items: center;" >
+        <div><button class="btn"><a href="./../pages/resume.php">Resume</a></button></div>
+        <div><button class="btn-hol">Projects </button></div>
+      </div>
+      
+          
+        
     </div>
     <div >
         <img  class="card-img" src="assets/images/1st.jpg" alt="">
@@ -42,7 +45,7 @@
   </div>
 </div>
 
-<div class="container" style="background-color:#08A4BD">
+<div class="container-lm" style="background-color:#08A4BD">
     <div class="grid-two-columns" style="place-items:center;">
       <div>
         <div class="flex-container">
@@ -54,7 +57,7 @@
                 <div class="subtitle"></div>
                 <div class="card-details">
                     <div class="card-details-inner">
-                      <div class="read-more"><a class="buttonc" href="https://megagh.xyz">Go To Project</a></div>
+                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
                     </div>
                 </div>
               </div>
@@ -71,7 +74,7 @@
                 <div class="subtitle"></div>
                 <div class="card-details">
                     <div class="card-details-inner">
-                      <div class="read-more"><a class="buttonc" href="#">Go To Project</a></div>
+                      <div class="read-more"><a class="button-card" href="#">Go To Project</a></div>
                     </div>
                 </div>
               </div>

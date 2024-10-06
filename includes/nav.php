@@ -1,4 +1,4 @@
-<nav id="nav">
+<nav class="navbar-norm">
  <ul>
   <li><a href="./../index.php">Home</a></li>
   <!-- <li><a href="./../pages/skillsProjects.php">Projects</a></li> -->

@@ -4,9 +4,7 @@
 /*#F7F7FF-ghostwhite*/
 /*#9E829C-mount pink*/
 /*#AA767C-old rose*/
-body{
-    background-color: #36373A;
-}
+
 
 .imglinks{
 	margin:0px 10px;
@@ -69,26 +67,6 @@ body{
 
   /*yellow colour:#F3BE43*/
    
-	.button-links{
-	   display: flex;
-	   justify-content: center;
-	   align-items: center;
-	   margin: auto;
-	} 
 
-#hero-text{
-	
-}
-	#hero-text h1{
-	font-size: 3em;
-    font-weight: bold;
-    color:white;
-	text-align: center;
-}
 
-#hero-text p{
-	font-size: 1.2em;
-    color:white;
-    text-align: center;
-}
 
