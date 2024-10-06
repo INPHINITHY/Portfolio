@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./../assets/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="./../assets/favicon_io/site.webmanifest">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="./../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="./../css-library/style.css"  rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
 </head>
 <body class="resbody">
