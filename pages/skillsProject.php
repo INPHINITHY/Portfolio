@@ -22,25 +22,143 @@
 <header>
     <?php include('./../includes/nav.php');?>
 </header>
-<div class="card-section">
-  <div class="flex-container">
-          <div class="card" style="">
-            <div class="card-image" style="background-image: url()"></div>
+
+<div class="container-lm" style='background-color:#AA767C;padding-top:40px'>
+      <div class="grid-two-columns" >
+        <div>
+          <h2>Css-Library- <a href="https://github.com/INPHINITHY/css-library">Check It Out</a></h2>
+            <ul >
+              <li>
+                <strong>A Library of my tested css with instructions on how to use it</strong>
+                <p><strong>Reason</strong> - to increase my effeiceincy</p>
+                 <div class="grid-two-columns">
+                  <div>
+                    <p><strong>Some Features:</strong></p> 
+                  </div>
+                  <div style="margin-top:20px">
+                    <ol>
+                      <li>Responsive Design</li>
+                      <li>Card designs</li>
+                      <li>Grid-systems</li>
+                      <li>Navbar Systems</li>
+                    </ol>
+                  </div>
+                 </div>
+              </li>
+            </ul>
+        </div>
+        <div>
+          <img class="card-img" src="./../assets/images/css-library.png" alt="">
+        </div>
+      </div>
+</div>
+
+<div class="container-lm" style='background-color:white;'>
+  <div class="grid-two-columns">
+      <div>
+        <img class="card-img" src="./../assets/images/ouroboros.png" alt="">
+      </div>
+      <div>
+        <h2>Ouroboros</h2>
+              <ul>
+                <li>
+                  <strong>A Discord Bot</strong>
+                    <p>Built using the newest version of <strong>Discord.py</strong></p>
+                    <p><strong>Main Feature</strong> Tournamnet runner</p>
+                    
+                </li>
+                <div class="grid-two-columns" style="text-align: left;" >
+                    <div>
+                      <p><strong>Sub Features:</strong></p> 
+                    </div>
+                    <div style="margin-top:20px">
+                      <ol>
+                        <li>Moderation</li>
+                        <li>Simple Games Like a rock paper scissor</li>
+                      </ol>
+                    </div>
+              </ul>
+      </div>
+  </div>
+
+</div>
+
+<div class="container-lm" style='background-color:#08A4BD'>
+  <div class="grid-two-columns">
+      <div>
+        <h2>MEGA - <a href="https://www.megagh.xyz/">VISIT</a></h2>
+              <ul>
+                <li>
+                  <strong>A Website Developed For The MEGA Community</strong>
+                    <p>Built with Html and php to allow consotency through out the site</strong></p>
+                </li>
+              </ul>
+      </div>
+      <div>
+        <img class="card-img" style="height:350px" src="./../assets/images/mega.png" alt="">
+      </div>
+  </div>
+</div>
+
+<div class="container-lm" >
+  <div class="card-section" style="margin:20px">
+    <h2 style="color:#08A4BD;" class="center">WEB GUILD PROJECTS(To be added Soon)</h2>
+    <div class="grid-three-columns">
+      <div>
+        <div class="flex-container">
+          <div class="card" style="background-color:#F7F7FF">
+            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
               <div class="card-content">
-                <h1></h1>
-                <p></p>
+                <h1>MEGA</h1>
+                <p>A website for The Mobile Esports Gaming Association</p>
                 <div class="subtitle"></div>
                 <div class="card-details">
                     <div class="card-details-inner">
-                      <div class="read-more"><a class="button-card" href=""></a></div>
+                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
                     </div>
                 </div>
               </div>
+          </div>
+        </div>
       </div>
+      <div>
+      <div class="flex-container">
+          <div class="card" style="background-color:#F7F7FF">
+            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
+              <div class="card-content">
+                <h1>MEGA</h1>
+                <p>A website for The Mobile Esports Gaming Association</p>
+                <div class="subtitle"></div>
+                <div class="card-details">
+                    <div class="card-details-inner">
+                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div>
+      <div class="flex-container">
+          <div class="card" style="background-color:#F7F7FF">
+            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
+              <div class="card-content">
+                <h1>MEGA</h1>
+                <p>A website for The Mobile Esports Gaming Association</p>
+                <div class="subtitle"></div>
+                <div class="card-details">
+                    <div class="card-details-inner">
+                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div> 
- skills 
-  projects
+</div>
+ 
 <footer class="footer">
       <?php include('./../includes/footer.php'); ?>
 </footer>

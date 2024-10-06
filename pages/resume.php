@@ -16,6 +16,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="./../css-library/style.css" rel="stylesheet" type="text/css" />
   <title>AUSTIN N. DWOMOH</title>
+  <style>
+    .resbody h2{
+        border-bottom: 2px solid #0056b3;
+    }
+
+    .resbody h2, h3, h4 {
+    color: #0056b3;
+}
+@media only screen and (max-width: 768px) {
+    
+    .resbody {
+            font-size: 0.9em;
+        }
+    
+       
+    .resbody h2 {
+            font-size: 2em;
+        }
+    
+     
+    .resbody   h3 {
+            font-size: 1.5em;
+        }
+    
+     
+    .resbody   h4 {
+            font-size: 1.2em;
+        }
+    
+        .card-section-2-columns   ul {
+            columns: 1;
+        }
+    }
+  </style>
 </head>
 <body class="resbody">
     <section class="card-section  card-section-contact-info">
