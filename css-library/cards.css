@@ -1,0 +1,155 @@
+
+
+ .card-img {
+    border-radius: 15px; 
+    border: 2px solid #ccc;     
+    padding: 20px;            
+    box-shadow: 6px 10px 7px;
+    background-color: rgb(179, 174, 174); 
+	border: 2px solid #000;
+    width: 400px;    
+    margin: 20px auto;    
+    text-align: left;      
+	font-size: 20px;
+}
+
+
+	
+
+  a {
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease; }
+  
+  .card-container {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 0 15px; }
+  
+  @media screen and (min-width: 800px) {
+	.flex-container {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex; } }
+  
+  .card {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 50%;
+	flex: 1 1 50%;
+	border: 1px solid #efefef;
+	margin: 15px 0;
+	-webkit-box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	position: relative; }
+	.card:hover {
+	  -webkit-box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	  box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2); }
+	.card h1 {
+	  margin: 0;
+	  font-size: 1.75rem;
+	  line-height: 1.2; }
+	.card p {
+	  margin: 0 0 30px;
+	  color: #666666; }
+	.card .subtitle {
+	  margin: 0 0 15px;
+	  font-size: 1.25rem;
+	  font-weight: 700;
+	  color: #E76C67; }
+	.card .card-image {
+	  height: 200px;
+	  background-size: cover;
+	  background-position: center center;
+	  background-repeat: no-repeat; }
+	.card .card-content {
+	  padding: 30px 30px 110px; }
+	.card .card-details {
+	  position: absolute;
+	  width: 100%;
+	  bottom: 0;
+	  left: 0; }
+	.card .card-details-inner {
+	  border-top: 1px solid #efefef;
+	  margin: 0 30px;
+	  padding: 30px 0;
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: justify;
+	  -ms-flex-pack: justify;
+	  justify-content: space-between;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  align-items: center; }
+	.card .options a {
+	  color: #666666; }
+	  .card .options a:hover {
+		color: #222222; }
+	.card .options .fa {
+	  margin-right: .25rem; }
+  
+  @media screen and (min-width: 800px) {
+	.card {
+	  margin: .5rem; } }
+
+/* a way to use this cards is using this organization
+<div class="flex-container">
+          <div class="card" style="">
+            <div class="card-image" style="background-image: url()"></div>
+              <div class="card-content">
+                <h1></h1>
+                <p></p>
+                <div class="subtitle"></div>
+                <div class="card-details">
+                    <div class="card-details-inner">
+                      <div class="read-more"><a class="button-card" href=""></a></div>
+                    </div>
+                </div>
+              </div>
+      </div>
+
+*/
+
+
+
+ .card-section {
+    background-color: #ffffff;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* most of these classes have to be used with section card */
+.card-section-contact-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #0056b3;
+    margin-bottom: 20px;
+}
+
+.card-section-contact-info p {
+    margin: 5px 0;
+}
+
+
+/* Section-specific styles */
+.card-section-2-columns ul {
+    columns: 2;
+    column-gap: 20px;
+}
+
+
+.card-section-vertical-list{
+	display:flex;
+    width:200px;
+    padding-bottom: 0;
+
+}
+
+.card-section-vertical-list li{
+    margin-right: 10px;
+   
+}
