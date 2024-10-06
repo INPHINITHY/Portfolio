@@ -1,0 +1,18 @@
+.container-lm{
+	max-width:1920px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container-fl{
+	width:100%;
+	display:inline-block;
+	padding-bottom:20px;
+}
+
+.container-fl img{
+	width: 100%;
+}
