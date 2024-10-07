@@ -24,7 +24,7 @@
 </header>
 
 <div class="container-lm" style='background-color:#AA767C;padding-top:40px'>
-      <div class="grid-two-columns" >
+  <div class="grid-two-columns"  style="place-items: center;">
         <div>
           <h2>Css-Library- <a href="https://github.com/INPHINITHY/css-library">Check It Out</a></h2>
             <ul >
@@ -54,7 +54,7 @@
 </div>
 
 <div class="container-lm" style='background-color:white;'>
-  <div class="grid-two-columns">
+<div class="grid-two-columns"  style="place-items: center;">
       <div>
         <img class="card-img" src="./../assets/images/ouroboros.png" alt="">
       </div>
@@ -84,7 +84,7 @@
 </div>
 
 <div class="container-lm" style='background-color:#08A4BD'>
-  <div class="grid-two-columns">
+<div class="grid-two-columns"  style="place-items: center;">
       <div>
         <h2>MEGA - <a href="https://www.megagh.xyz/">VISIT</a></h2>
               <ul>

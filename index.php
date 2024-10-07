@@ -24,8 +24,21 @@
   
 <!--Main Content Start-->
   
-<div class="container-lm">
-  <div class="grid-two-columns" style="place-items: center;height: 100vh;padding-top:40px" >
+<div class="container-lmH">
+  <div class="grid-two-columns" style="place-items: center;padding-top:40px;">
+    <style>
+      @media (min-width: 1024px){
+        .container-lmH{
+          max-width:1920px;
+	        width:100%;
+	        margin:0 auto;
+	        position:relative;
+	        padding-left: 10px;
+	        padding-right: 10px;
+          height:100vh}
+       
+      }
+    </style>
     <div>
       <span id="hero-text" >
         <h1>Hi, I am Austin N. Dwomoh</h1>
@@ -45,7 +58,8 @@
   </div>
 </div>
 
-<div class="container-lm" style="background-color:#08A4BD">
+<div class="container-fl" style="background-color:#08A4BD">
+  <div class="card-section">
     <div class="grid-two-columns" style="place-items:center;">
       <div>
         <div class="flex-container">
@@ -65,24 +79,24 @@
         </div>
       </div>
       <div>
-      <div class="flex-container">
-          <div class="card" style="background-color:#F7F7FF">
-            <div class="card-image" style="background-image: url(./../assets/images/ouroboros.png)"></div>
-              <div class="card-content">
-                <h1>OUROBOROS</h1>
-                <p>A Discord tournament bot thah has a couple of general features</p>
-                <div class="subtitle"></div>
-                <div class="card-details">
-                    <div class="card-details-inner">
-                      <div class="read-more"><a class="button-card" href="#">Go To Project</a></div>
-                    </div>
+        <div class="flex-container">
+            <div class="card" style="background-color:#F7F7FF">
+              <div class="card-image" style="background-image: url(./../assets/images/ouroboros.png)"></div>
+                <div class="card-content">
+                  <h1>OUROBOROS</h1>
+                  <p>A Discord tournament bot thah has a couple of general features</p>
+                  <div class="subtitle"></div>
+                  <div class="card-details">
+                      <div class="card-details-inner">
+                        <div class="read-more"><a class="button-card" href="#">Go To Project</a></div>
+                      </div>
+                  </div>
                 </div>
-              </div>
+            </div>
           </div>
-        </div>
       </div>
-      
-    </div> 
+    </div>
+   </div>
 </div>
 
 <footer class="footer">
