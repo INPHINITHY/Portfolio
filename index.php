@@ -24,19 +24,13 @@
   
 <!--Main Content Start-->
   
-<div class="container-lmH">
-  <div class="grid-two-columns" style="place-items: center;padding-top:40px;">
+<div class="container-lm">
+  <div class="grid-two-columns grid-two-columnsH" style="place-items: center;padding-top:40px;">
     <style>
       @media (min-width: 1024px){
-        .container-lmH{
-          max-width:1920px;
-	        width:100%;
-	        margin:0 auto;
-	        position:relative;
-	        padding-left: 10px;
-	        padding-right: 10px;
-          height:100vh}
-       
+        .grid-two-columnsH{
+          height:100vh;
+        }
       }
     </style>
     <div>
