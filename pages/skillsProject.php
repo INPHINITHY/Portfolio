@@ -93,14 +93,14 @@
       <div>
         <div class="flex-container">
           <div class="card" style="background-color:#F7F7FF">
-            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
+            <div class="card-image" style="background-image: url(./../assets/images/ceaqc.png)"></div>
               <div class="card-content">
-                <h1>MEGA</h1>
-                <p>A website for The Mobile Esports Gaming Association</p>
+                <h1>CEAQC</h1>
+                <p>A website for Competitive Edge Athletics</p>
                 <div class="subtitle"></div>
                 <div class="card-details">
                     <div class="card-details-inner">
-                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
+                      <div class="read-more"><a class="button-card" href="https://webgeeksrus.com/test/ceaqc/">Go To Project</a></div>
                     </div>
                 </div>
               </div>

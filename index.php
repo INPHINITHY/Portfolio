@@ -68,7 +68,7 @@
                   <div class="subtitle"></div>
                   <div class="card-details">
                       <div class="card-details-inner">
-                        <div class="read-more"><a class="button-card" href="#">Go To Project</a></div>
+                        <div class="read-more"><a class="button-card" href="https://discord.com/oauth2/authorize?client_id=1280610867846578309">Invite To Server</a></div>
                       </div>
                   </div>
                 </div>

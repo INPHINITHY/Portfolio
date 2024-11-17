@@ -59,7 +59,7 @@
         </div>
         <div> 
             <section class="card-section" style="width:300px;">
-                <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">
+                <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me(2).pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">
                     <button type="button" class="btn">Download Resume</button>
                 </a>
             </section>
@@ -107,13 +107,6 @@
 
     <section class="card-section">
         <h3>Projects</h3>
-        <h4>Personal Portfolio</h4>
-        <ul>
-            <li>Created a responsive website showcasing technical skills and projects using HTML, CSS, JavaScript, and Bootstrap.</li>
-            <li>Integrated multimedia elements and interactive features to engage visitors effectively.</li>
-            <li>Optimized website performance and accessibility for a seamless user experience across devices.</li>
-        </ul>
-
         <h4>Discord Bot Developer (Ouroboros)</h4>
         <ul>
             <li>Created a global Discord bot using Python (discord.py), enabling users worldwide to manage tournaments and automate processes.</li>
@@ -121,7 +114,7 @@
             <li>Configured environment variables and handled API dependencies to maintain secure, scalable access for global users.</li>
         </ul>
 
-        <h4>MEGA</h4>
+        <h4><a href="http://www.megagh.xyz" style="color:black">MEGA</a></h4>
         <ul>
             <li>Developed a basic website using HTML and CSS to practice fundamental web development skills.</li>
             <li>Implemented responsive design principles, such as a PHP include system, to ensure compatibility across various devices.</li>
@@ -131,21 +124,28 @@
 
     <section class="card-section-2-columns card-section">
         <h3>Skills</h3>
-        <ul class="card-section" style="padding-left:20px">
-            <li><b>Technical Skills:</b></li>
-            <li>Python </li>
-            <li>JavaScript</li>
-            <li>Bootstrap 5</li>
-            <li>Sass</li>
-            <li>React JS</li>
-            <li>Front End Development</li>
+            <h3 style="color:black">Programming:</h3>
+                <ul>
+                <li><strong>Languages:</strong> Python, JavaScript, PHP</li>
+                <li><strong>Frameworks & Libraries:</strong> Bootstrap 5, SQLite3</li>
+                </ul>
+
+            <h3 style="color:black">Front-End Development:</h3>
+                <ul>
+                <li>HTML/CSS, JavaScript, Sass, PHP, Bootstrap 5</li>
+                </ul>
+
+            <h3 style="color:black">Design & Creative Tools:</h3>
+            <ul>
+            <p>These design tools are just in the begginer stages I can use them but not as good as I can write programs or websites</p>
             <li>Adobe Photoshop</li>
-            <li>SQL</li>
-            <li>PHP</li>   
-        </ul>
-        <ul class="card-section" style="padding-left:20px">
-            <li><b>Soft Skills:</b></li>
-            <li>Communication </li>
+            <li>Adobe Animate</li>
+            <li>Blender</li>
+            </ul>
+
+        <h3 style="color:black">Soft Skills:</h3>
+        <ul>
+            <li>Communication</li>
             <li>Collaboration</li>
             <li>Problem-solving</li>
             <li>Adaptability</li>
@@ -154,5 +154,11 @@
             <li>Effectiveness</li>
         </ul>
     </section>
+
+    <section class="card-section">
+    <h3>WORK AUTHORIZATION</h3>
+    <p>F-1 visa status, Ghana citizenship, eligible for full time employment.</p>
+
+</section>
 </body>
 </html>
