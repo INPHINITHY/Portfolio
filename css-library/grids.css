@@ -57,12 +57,17 @@
 	}
 }
 
+
 @media only screen and (max-width:720px){
 
     .grid-two-thirds-one-third{
 		-ms-grid-columns:1fr;
 		grid-template-columns:1fr;
 	}
+	.body-dark{text-align: center;}
+	.body-dark ul ul li{list-style: none;} /* too lazy to do it right */
+
+	.off{display:none}
 	
 	.grid-one-fourth-three-fourths{
 		-ms-grid-columns:1fr;

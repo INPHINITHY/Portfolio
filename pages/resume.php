@@ -42,32 +42,9 @@
 <body class="resbody">
     <section class="card-section  card-section-contact-info">
         <h2>Austin Nana Dwomoh Jr</h2>
-        <div class="grid-two-columns" style="place-items: center">
-        <div>
-            <ul>
-            <section class="card-section-vertical-list card-section">
-                
-                    <li><a href="mailto:dwomohaustin14@gmail.com" title="personal-email"><i class="bi bi-envelope-at-fill"></i></a></li>
-                    <li><a href="tel:+13096314966" title="Contact"><i class="bi bi-phone-fill"></i></a></li>
-                    <li><a href="https://www.instagram.com/inphinithy1/" title="instagram"><i class="bi bi-instagram"></i></a></li>
-                    <li><a href="http://github.com/INPHINITHY" title="github"><i class="bi bi-github"></i></a></li>
-                    <li><a href="http://linkedin.com/in/austin-dwomoh-44952a31b" title="linkedin"><i class="bi bi-linkedin"></i></a></li>
-                    <li><a href="https://wa.me/+13096314966" title="whatsapp"><i class="bi bi-whatsapp"></i></a></li>
-                
-             </section>
-            </ul>
-        </div>
-        <div> 
-            <section class="card-section" style="width:300px;">
-                <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me(2).pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">
-                    <button type="button" class="btn">Download Resume</button>
-                </a>
-            </section>
-        </div>
-        </div>
-        
-       
-        
+        <button class="button-29" role="button">
+        <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">Download Resume</a>
+        </button>
     </section>
 
     <section class="card-section">

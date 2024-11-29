@@ -1,245 +1,109 @@
-/*Use the following for a normal nav
-Change the background-color in .navbar-norm to change the color of the navigation bar
-Change the background-color in .navbar-norm ul li ul to change the background color of the dropdown menus
-These values do also need to be changed further down, in the 600px, 400px, and 300px wide sections 
-*/
 /* -------------------- Start Navigation -------------------- */
-.navbar-norm{
+.navbar-norm {
 	width: 100%;
-	z-index:10;
-	position:fixed;
-	font-size:16px;
-	background-color: #36373a ;
-    margin-bottom: 10px;
-
-}
-
-.navbar-norm > a{
-	display: none;
-}
-
-.navbar-norm li{
-	position: relative;
-	list-style-position:inside;
-	list-style-type:none;
-    justify-content: center;
-}
-
-.navbar-norm li:hover {
-    border-bottom: solid white;
-}
-.navbar-norm li a{
+	z-index: 10;
+	position: fixed;
+	font-size: 16px;
+	background-color: #36373a;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+  }
+  
+  .navbar-norm img {
+	height: 40px; /* Adjust logo size */
+  }
+  
+  .navbar-norm ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+  }
+  
+  .navbar-norm li {
+	margin: 0 15px;
+  }
+  
+  .navbar-norm li a {
 	color: white;
-	display: block;
-	text-decoration:none;
-}
-
-
-
-.navbar-norm > ul{
-	text-align:center;
-	padding-left:0px !important;
-	margin-left:0px !important;
-}
-.navbar-norm > ul > li{
-	margin:0px 15px;
-	padding:4px 8px;
-	height: 100%;
-	display:inline-block;
-}
-.navbar-norm > ul > li > a{
-	height: 100%;
-	text-align: center;
-}
-.navbar-norm > ul > li:not( :last-child ) > a{
-	
-}
-
-.navbar-norm > ul > li:hover > a,
-.navbar-norm > ul:not( :hover ) > li.active > a{
-	
-} 
-	/* second level */
-
-.navbar-norm li ul{
-	background-color:whitesmoke;
+	text-decoration: none;
+	padding: 8px;
+  }
+  
+  .hamburger {
 	display: none;
-	position: absolute;
-	top: 100%;
-	margin-left:0 !important;
-	padding-left:0 !important;
-	width:100%;/*changed from a definite px to a percentage*/
-	text-align:left;
-}
-.navbar-norm li:hover ul{
-	display: block;
-	left: 0;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+	.navbar-norm ul {
+	  display: none;
+	}
+  
+	.hamburger {
+	  display: block;
+	}
+  
+	/* Sidebar styling */
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
 	right: 0;
-}
-.navbar-norm li:not( :first-child ):hover ul{
-	left: -1px;
-}
-.navbar-norm li ul a{
-	color:#000;
-	padding: 0.75em; /* 15 (20) */
-}
-.navbar-norm li ul li a:hover,
-.navbar-norm li ul:not( :hover ) li.active a
-{
-}
-/* -------------------- End Navigation for normal -------------------- */
-
-/* -------------------- Start Navigation with dropdown and mobile design -------------------- */
-/*Use the following for top drop-down nav
-Change the background-color in #nav to change the color of the navigation bar
-Change the background-color in #nav ul li ul to change the background color of the dropdown menus
-These values do also need to be changed further down, in the 600px, 400px, and 300px wide sections 
-*/
-/* -------------------- Start Navigation -------------------- */
-#nav{
-	width: 100%;
-	z-index:10;
-	position:relative;
-	font-size:16px;
-	background-color: darkgrey;
-}
-
-#nav > a{
-	display: none;
-}
-
-#nav li{
-	position: relative;
-	list-style-position:inside;
-	list-style-type:none;
-}
-#nav li a{
-	color: #000;
+	background-color: #36373a;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 	display: block;
-	text-decoration:none;
-}
-
-/* first level */
-
-#nav > ul{
-	text-align:center;
-	padding-left:0px !important;
-	margin-left:0px !important;
-}
-#nav > ul > li{
-	margin:0px 15px;
-	padding:4px 8px;
-	height: 100%;
-	display:inline-block;
-}
-#nav > ul > li > a{
-	height: 100%;
-	text-align: center;
-}
-#nav > ul > li:not( :last-child ) > a{
-	
-}
-
-#nav > ul > li:hover > a,
-#nav > ul:not( :hover ) > li.active > a{
-	
-}
-
-	/* second level */
-
-#nav li ul{
-	background-color:whitesmoke;
-	display: none;
-	position: absolute;
-	top: 100%;
-	margin-left:0 !important;
-	padding-left:0 !important;
-	width:100%;/*changed from a definite px to a percentage*/
-	text-align:left;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
-}
-#nav li:hover ul{
-	display: block;
-	left: 0;
-	right: 0;
-}
-#nav li:not( :first-child ):hover ul{
-	left: -1px;
-}
-#nav li ul a{
-	color:#000;
-	padding: 0.75em; /* 15 (20) */
-}
-#nav li ul li a:hover,
-#nav li ul:not( :hover ) li.active a
-{
-}
-
-
-@media only screen and (max-width:720px){
-	/* -------------------- Start Navigation -------------------- */
-	#nav{
-        position: relative;
-    }
-	#nav > a{
+	flex-direction: column; /* Stacks items vertically */
+	justify-content: center; /* Centers content vertically */
+	align-items: center; /* Centers content horizontally */
+  }
+  
+  .sidebar a {
+	padding: 16px 32px; /* Adjust padding for more space */
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: flex;
+	justify-content: center; /* Centers text horizontally */
+	align-items: center; /* Centers text vertically */
+	transition: 0.3s;
+	width: 100%; /* Optional: makes the anchor take full width */
+	text-align: center; /* Centers the text inside the link */
+	margin-top: 50px;
+  }
+  
+  
+	.sidebar .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 2px; /* Adjusted close button to the right */
+	  font-size: 36px;
+	  margin-right: 2px;
 	}
-	
-	#nav:not( :target ) > a:first-of-type,
-	#nav:target > a:last-of-type{
-		display: flex;
-		width:100%;
-		text-align:center;
-		color:#000;
-		font-size:20px;
-		padding:5px 0px;
-		text-decoration:none;
-		justify-content: space-between;
+  
+	.navbar-norm.active ul {
+	  display: none;
 	}
-	
-	#nav a{
-		font-size:18px;	
+  }
+  
+  /* When the sidebar is open */
+  .sidebar.open {
+	width: 360px; /* Width of the sidebar */
+  }
+  
+  @media (max-width: 400px) {
+	.sidebar a {
+	  font-size: 18px;
 	}
- 
-    /* first level */
- 
-    #nav > ul{
-        height: auto;
-        display: none;
-        position: absolute;
-        left: 0;
-        right: 0;
-		background-color:#ccc;
-		margin-top:0px !important;
-		padding-bottom:10px;
-    }
-	#nav:target > ul{
-		display: block;
-	}
-	#nav > ul > li{
-		width: 100%;
-		float: none;
-		margin:0px !important;
-		padding:4px 0px;
-	}
-
-    /* second level */
-	
- 
-    #nav li ul{
-        position: static;
-		width:98%;
-		margin:0 !important;
-		text-align:center;
-		padding:0 !important;
-    }
-	#nav li ul a{
-		padding:0.5em 0;
-		margin:0.25em 0;
-	}
-}
-
-
-.header{
-    width: 100%;
-}
+  }
+  

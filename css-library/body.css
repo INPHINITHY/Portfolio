@@ -11,6 +11,7 @@ html{
     background-color: #36373A;
     margin: 0;
     font-family: "Noto Sans", sans-serif;
+    
 }
 .body-dark ul {
     list-style-type: none;
@@ -22,7 +23,10 @@ html{
     margin-bottom: 8px;
 }
 
-
+.body-dark ul ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
 .body-dark a {
     color: bisque;
     text-decoration: none;
