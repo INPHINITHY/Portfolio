@@ -23,8 +23,71 @@
     top: 43%;
   left: 2%;
   }
+}
   
+@media only screen and (min-width: 961px) {
+  .name {
+    font-size: 4vw; /* Scales with viewport width */
+    top: 29%; /* Use percentage for relative positioning */
+    left: 2%; /* Use percentage for relative positioning */
   }
+  .typewriter p {
+    font-size: 1.8vw; /* Adjust font-size to scale proportionally */
+    font-weight: 600;
+    position: absolute;
+    top: 38%;
+    left: 2%;
+  }
+  .button-container {
+    position: absolute; /* Ensure consistent positioning */
+    top: 45%;
+    left: 2%;
+  }
+  .hero{
+    height:100vh
+  }
+}
+
+@media only screen and  (width:1080px){
+  .name{
+    font-size: 50px;
+    top: 37%;
+    left: 2%;
+  }
+  .typewriter p{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 42%;
+    left: 2%;
+  }
+  .button-container{
+    top: 46%;
+  left: 2%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .name{
+    font-size: 50px;
+    top: 74%;
+    left: 2%;
+  }
+  .typewriter p{
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 81%;
+    left: 2%;
+  }
+  .button-container{
+    top: 90%;
+  left: 2%;
+  }
+}
+
+
+  
 </style>
 <div class="hero typewriter">
   <h1 class="name">Hi, I am <span style="color:yellow">Austin</span></h1>
