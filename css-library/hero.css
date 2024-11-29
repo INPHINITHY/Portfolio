@@ -1,8 +1,8 @@
 .hero {
-    background-image: url('/assets/images/1st.jpg');
+    background-image: url('../assets/images/1st.jpg');
     background-size: cover; /* Ensures the image covers the whole background */
      /* Centers the background image */
-    height: 100vh; /* Adjust height to fit the viewport */
+    height: 50vh; /* Adjust height to fit the viewport */
     display: flex; /* Center align the text */
     justify-content: center;
     align-items: center;
