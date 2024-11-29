@@ -1,10 +1,10 @@
 <nav class="navbar-norm">
-  <img src="../assets/favicon_io/android-chrome-192x192.png" alt="Logo" class="logo">
+  <img src="./../assets/favicon_io/android-chrome-192x192.png" alt="Logo" class="logo">
   <a href="javascript:void(0);" class="hamburger" onclick="toggleSidebar()">☰</a>
   <ul id="nav">
     <li><a href="./../index.php">Home</a></li>
     <li><a href="./../pages/skillsProject.php">Projects</a></li>
-    <li><a href="../pages/resume.php">Resume</a></li>
+    <li><a href="./../pages/resume.php">Resume</a></li>
 
   </ul>
 </nav>
@@ -14,7 +14,7 @@
   <a href="javascript:void(0)" style="justify-content:right;margin-top:0"class="closebtn" onclick="closeSidebar()">&times;</a>
   <a href="./../index.php">Home</a>
   <a href="./../pages/skillsProject.php">Projects</a>
-  <a href="../pages/resume.php">Resume</a>
+  <a href="./../pages/resume.php">Resume</a>
   <span class="button-container" style="top: 70%;left: 20%;">
     <button class="button-29" role="button">
         <a href="mailto:dwomohaustin14@gmail.com" style="margin-top:0;">Contact</a>
