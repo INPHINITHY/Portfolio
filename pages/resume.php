@@ -11,8 +11,12 @@
 
     .resbody h2, h3, h4 {
     color: #0056b3;
-}
-@media only screen and (max-width: 768px) {
+    }
+    .resbody ul ul li{
+        list-style-type: circle;
+        margin-left: 20px;
+    }
+    @media only screen and (max-width: 768px) {
     
     .resbody {
             font-size: 0.9em;
@@ -43,95 +47,75 @@
     <section class="card-section  card-section-contact-info">
         <h2>Austin Nana Dwomoh Jr</h2>
         <button class="button-29" role="button">
-        <a href="./../assets/docs/AUSTIN DWOMOH RESUME-me.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">Download Resume</a>
+           <a href="./../assets/docs/Main.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">Download Resume</a>
         </button>
     </section>
 
     <section class="card-section">
         <h3>Education</h3>
-        <p><strong>Augustana College | Rock Island, IL</strong> (Graduation Date: May 2027)</p>
         <ul>
-            <li>Bachelor of Science in Computer Science</li>
-            <li>International Founders Scholar || Distinguished Alumni Scholarship Recipient</li>
+            <li>
+                <p><strong>Augustana College | Rock Island, IL</strong> (Graduation Date: May 2027)</p>
+                <ul>
+                    <li>Bachelor of Arts in Computer Science</li>
+                    <li><em>Current GPA:</em> 2.77</li>
+                    <li><em>Relevant coursework:</em> Object-Oriented Programming, Software Development, Data Structures and Algorithms, Game 
+                    Design and Development, Database, Principles of Computer System</li>
+                </ul>
+                </li>
+            <li>
+                <p><strong>Technical Skills</strong></p>
+                <ul>
+                    <li><em>Programming languages:</em> Java, Python, C++, JavaScript</li>
+                    <li><em>Web Development:</em> HTML, CSS, Bootstrap, PhP</li>
+                    <li><em>Tools & Platforms:</em> Git, VS Code, Linux (shell scripting, system management), Apache2, PowerShell (automation,     
+                    system administration)</li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Design Skills</strong></p>
+                <ul>
+                    <li>Adobe Creative Suite (Photoshop, Animate)</li>
+                    <li>Blender</li>
+                    <li>Figma</li>
+                </ul>
+            </li>
         </ul>
-        <p>Relevant coursework: Web Development (W3 Schools), Calculus, Fundamentals of Programming (Python, JavaScript - FreeCodeCamp), Intro to Computer Science.</p>
+        
+        
     </section>
 
     <section class="card-section">
         <h3>Work Experience</h3>
 
-        <h4>WEB Guild Developer (Non-Profit) - Feb 2024 - Present</h4>
+        <h4>EDGE CENTER, Front-end Developer|Feb 2024 - Present</h4>
         <ul>
-            <li>Developed responsive websites using HTML, CSS, and Bootstrap to ensure consistent functionality across all devices, resulting in enhanced user engagement and client satisfaction.</li>
-            <li>Collaborated with cross-functional teams by aligning designers, project managers, and developers to deliver projects on time and within budget, bolstering the company's reputation for reliability.</li>
-            <li>Implemented SEO techniques by optimizing on-page elements, conducting keyword research, and refining site structure, leading to improved search engine rankings and increased organic traffic for client websites.</li>
+            <li>Developed responsive websites using HTML, CSS, and Bootstrap to ensure consistent functionality across all 
+            devices.</li>
+            <li>Collaborated with cross-functional teams by aligning designers, project managers, and developers to deliver projects on 
+            time</li>
         </ul>
 
-        <h4>Dining Hall Staff - Feb 2024 - May 2024</h4>
+        <h4>Augustana College</h4>
         <ul>
-            <li>Prepared and served meals to students and staff, adhering to strict food hygiene standards, ensuring consistently high-quality and safe meals, which led to a positive dining experience and high customer satisfaction.</li>
-            <li>Efficiently managed peak dining periods by organizing workflows and coordinating with team members, maintaining smooth operations and ensuring prompt service, minimizing wait times and enhancing customer satisfaction during busy times.</li>
-            <li>Assisted in inventory management and stock rotation by monitoring inventory levels, ensuring proper stock rotation, and tracking expiration dates, minimizing waste and reducing costs.</li>
-        </ul>
-
-        <h4>Grounds Facilities Team Member - May 2024 - Aug 2024</h4>
-        <ul>
-            <li>Operated specialized machinery and equipment to maintain campus grounds and landscaping, resulting in a clean and visually appealing environment that enhances the overall experience for students, staff, and visitors.</li>
-            <li>Performed regular inspections and repairs of irrigation systems, identifying and addressing leaks and inefficiencies, leading to optimized water usage and supporting the college's sustainability goals.</li>
-            <li>Contributed to sustainability initiatives by implementing eco-friendly landscaping practices, improving the ecological health of the campus.</li>
-        </ul>
-    </section>
-
-    <section class="card-section">
-        <h3>Projects</h3>
-        <h4>Discord Bot Developer (Ouroboros)</h4>
-        <ul>
-            <li>Created a global Discord bot using Python (discord.py), enabling users worldwide to manage tournaments and automate processes.</li>
-            <li>Deployed and managed the bot via terminal on a DigitalOcean droplet with Apache, ensuring reliable performance.</li>
-            <li>Configured environment variables and handled API dependencies to maintain secure, scalable access for global users.</li>
-        </ul>
-
-        <h4><a href="http://www.megagh.xyz" style="color:black">MEGA</a></h4>
-        <ul>
-            <li>Developed a basic website using HTML and CSS to practice fundamental web development skills.</li>
-            <li>Implemented responsive design principles, such as a PHP include system, to ensure compatibility across various devices.</li>
-            <li>Applied debugging techniques to troubleshoot and resolve technical issues effectively.</li>
-        </ul>
-    </section>
-
-    <section class="card-section-2-columns card-section">
-        <h3>Skills</h3>
-            <h3 style="color:black">Programming:</h3>
+            <li>
+                <p><strong>Dining Hall Staff</strong></p>
                 <ul>
-                <li><strong>Languages:</strong> Python, JavaScript, PHP</li>
-                <li><strong>Frameworks & Libraries:</strong> Bootstrap 5, SQLite3</li>
+                    <li>Prepared and served meals while maintaining strict food hygiene standards, ensuring high-quality service and customer
+                    satisfaction.</li>
+                    <li>Streamlined workflows during peak hours, reducing wait times and enhancing the dining experience.</li>
                 </ul>
-
-            <h3 style="color:black">Front-End Development:</h3>
+            </li>
+            <li>
+                <p><strong>Facilities Team Member</strong></p>
                 <ul>
-                <li>HTML/CSS, JavaScript, Sass, PHP, Bootstrap 5</li>
+                <li>Operated machinery to maintain landscaping, creating a clean and welcoming campus environment.</li>
+                <li>Inspected and repaired irrigation systems, improving water efficiency and supporting sustainability efforts.</li>
                 </ul>
-
-            <h3 style="color:black">Design & Creative Tools:</h3>
-            <ul>
-            <p>These design tools are just in the begginer stages I can use them but not as good as I can write programs or websites</p>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Animate</li>
-            <li>Blender</li>
-            </ul>
-
-        <h3 style="color:black">Soft Skills:</h3>
-        <ul>
-            <li>Communication</li>
-            <li>Collaboration</li>
-            <li>Problem-solving</li>
-            <li>Adaptability</li>
-            <li>Leadership</li>
-            <li>Flexibility</li>
-            <li>Effectiveness</li>
+                
+            </li>
         </ul>
     </section>
-
     <section class="card-section">
     <h3>WORK AUTHORIZATION</h3>
     <p>F-1 visa status, Ghana citizenship, eligible for full time employment.</p>

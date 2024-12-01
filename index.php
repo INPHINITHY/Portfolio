@@ -20,7 +20,7 @@
     left: 2%;
   }
   .button-container{
-    top: 43%;
+    top: 44.5%;
   left: 2%;
   }
 }
@@ -168,7 +168,7 @@
           <h2>Education</h2>
             <ul>
               <li>
-                <strong>Augustana College|Rock Island,IL|2027</strong>
+                <strong>Augustana College|BA in Computer Sceince|Rock Island,IL|2027</strong>
               </li>
               <li><strong>Asanteman Senior High|Kumasi,Gh|General Science</strong>
               </li>
@@ -177,26 +177,23 @@
             <h2>Skills and Tools</h2>
             <ul>
               <li>
-                <h4>Languages:</h4>
+                <h4>Languages and Tools</h4>
                 <ul>
                   <li>Python</li>
                   <li>JavaScript</li>
                   <li>PhP</li>
                   <li>HTML/CSS😶‍🌫️</li>
-                </ul>
-              </li>
-              <li>
-                <h4>Frameworks:</h4>
-                <ul>
                   <li>Bootstrap 5</li>
-                  <li>Sqlite</li>
+                  <li>SQL</li>
+                  <li>Git</li>
+                  <li>VS code</li>
                 </ul>
               </li>
               <li>
                 <h4>Design Tools:</h4>
                 <ul>
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe Animate</li>
+                  <li>Adobe Creative Suite</li>
+                  <li>Figma</li>
                   <li>Blender</li>
                 </ul>
               </li>
@@ -217,7 +214,7 @@
           <h2>Work experience</h2>
                   <ul>
                     <li>
-                      <h4>Web Developer-EDGE|Augustana College(March 2024 - present)</h4>
+                      <h4>EDGE CENTER, Front-end Developer     (March 2024 - present)</h4>
                       <ul>
                         <li>Pratical web development Opportuinity</li>
                         <li>Worked alongside my peers to create and maintain a website for the local business.</li>
