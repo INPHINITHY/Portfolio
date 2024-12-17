@@ -58,7 +58,7 @@
                 <p><strong>Augustana College | Rock Island, IL</strong> (Graduation Date: May 2027)</p>
                 <ul>
                     <li>Bachelor of Arts in Computer Science</li>
-                    <li><em>Current GPA:</em> 2.77</li>
+                    <li><em>Current GPA:</em> 3.3</li>
                     <li><em>Relevant coursework:</em> Object-Oriented Programming, Software Development, Data Structures and Algorithms, Game 
                     Design and Development, Database, Principles of Computer System</li>
                 </ul>
