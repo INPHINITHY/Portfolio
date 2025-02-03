@@ -12,21 +12,20 @@
 <div class="container-lm" style='background-color:#AA767C;padding-top:40px'>
   <div class="grid-two-columns"  style="place-items: center;">
         <div>
-          <h2>Css-Library- <a href="https://github.com/INPHINITHY/css-library">Check It Out</a></h2>
+          <h2><a href="https://github.com/INPHINITHY/css-library">Areis</a></h2>
             <ul >
               <li>
-                <strong>A Library of my tested css with instructions on how to use it</strong>
-                <p><strong>Reason</strong> - to increase my effeiceincy</p>
+                <strong>A website made for clan based events</strong>
+                <p><strong>Reason</strong> - One of a kind website</p>
                  <div class="grid-two-columns">
                   <div>
                     <p><strong>Some Features:</strong></p> 
                   </div>
                   <div style="margin-top:20px">
                     <ol>
-                      <li>Responsive Design</li>
-                      <li>Card designs</li>
-                      <li>Grid-systems</li>
-                      <li>Navbar Systems</li>
+                      <li>Data tracking across all macthes</li>
+                      <li>Player recruitment</li>
+                      <li>Tournament organazations</li>
                     </ol>
                   </div>
                  </div>
@@ -34,7 +33,7 @@
             </ul>
         </div>
         <div>
-          <img class="card-img" src="./../assets/images/css-library.png" alt="">
+          <img class="card-img" src="./../assets/images/areis.png" alt="">
         </div>
       </div>
 </div>
@@ -109,14 +108,14 @@
       <div>
       <div class="flex-container">
           <div class="card" style="background-color:#F7F7FF">
-            <div class="card-image" style="background-image: url(./../assets/images/mega.png)"></div>
+            <div class="card-image" style="background-image: url(./../assets/images/grace.png)"></div>
               <div class="card-content">
-                <h1>MEGA</h1>
-                <p>A website for The Mobile Esports Gaming Association</p>
+                <h1>Grace</h1>
+                <p>A website for Grace Lutheran Church - Rock Island</p>
                 <div class="subtitle"></div>
                 <div class="card-details">
                     <div class="card-details-inner">
-                      <div class="read-more"><a class="button-card" href="https://megagh.xyz">Go To Project</a></div>
+                      <div class="read-more"><a class="button-card" href="https://webgeeksrus.com/test/grace/">Go To Project</a></div>
                     </div>
                 </div>
               </div>

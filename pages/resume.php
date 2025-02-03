@@ -1,9 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<head>
     <?php include('./../includes/links.php');?>
-</head>
   <style>
     .resbody h2{
         border-bottom: 2px solid #0056b3;
@@ -47,7 +45,10 @@
     <section class="card-section  card-section-contact-info">
         <h2>Austin Nana Dwomoh Jr</h2>
         <button class="button-29" role="button">
-           <a href="./../assets/docs/Main.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">Download Resume</a>
+           <a href="./../assets/docs/main_resume.pdf" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.pdf">Download Resume(Pdf)</a>
+        </button>
+        <button class="button-29" role="button">
+           <a href="./../assets/docs/new_resume.docx" title="click to dowload my resume" download="Austin_Nana_Dwomoh_Resume.docx">Download Resume(Docx)</a>
         </button>
     </section>
 
@@ -57,8 +58,8 @@
             <li>
                 <p><strong>Augustana College | Rock Island, IL</strong> (Graduation Date: May 2027)</p>
                 <ul>
-                    <li>Bachelor of Arts in Computer Science</li>
-                    <li><em>Current GPA:</em> 3.3</li>
+                    <li><strong>Computer Science</strong></li>
+                    <li><em>Current GPA:</em> 3.67</li>
                     <li><em>Relevant coursework:</em> Object-Oriented Programming, Software Development, Data Structures and Algorithms, Game 
                     Design and Development, Database, Principles of Computer System</li>
                 </ul>
@@ -66,8 +67,8 @@
             <li>
                 <p><strong>Technical Skills</strong></p>
                 <ul>
-                    <li><em>Programming languages:</em> Java, Python, C++, JavaScript</li>
-                    <li><em>Web Development:</em> HTML, CSS, Bootstrap, PhP</li>
+                    <li><em>Programming languages:</em> Java, Python, SQl</li>
+                    <li><em>Web Development:</em> HTML, CSS, Bootstrap, PhP, Django, Javascript, React</li>
                     <li><em>Tools & Platforms:</em> Git, VS Code, Linux (shell scripting, system management), Apache2, PowerShell (automation,     
                     system administration)</li>
                 </ul>
@@ -118,7 +119,7 @@
     </section>
     <section class="card-section">
     <h3>WORK AUTHORIZATION</h3>
-    <p>F-1 visa status, Ghana citizenship, eligible for full time employment.</p>
+    <p>F-1 visa status, Ghana citizenship, eligible for full time employment under CPT and OPT.</p>
 
 </section>
 </body>
