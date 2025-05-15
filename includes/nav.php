@@ -32,7 +32,6 @@
 $(function() {
   $('#nav li:has(ul)').doubleTapToGo();
 });
-
 // JavaScript for hamburger menu toggle
 function toggleMenu() {
   const navbar = document.querySelector('.navbar-norm');
@@ -42,11 +41,9 @@ function toggleMenu() {
 function toggleSidebar() {
   document.getElementById("sidebar").classList.toggle("open");
 }
-
 // Function to close the sidebar
 function closeSidebar() {
   document.getElementById("sidebar").classList.remove("open");
 }
-
 
   </script>

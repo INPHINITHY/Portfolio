@@ -1,0 +1,503 @@
+/* card */
+
+	.card-img {
+		border-radius: 15px; 
+		border: 2px solid #ccc;     
+		padding: 20px;            
+		box-shadow: 6px 10px 7px;
+		background-color: rgb(179, 174, 174); 
+		border: 2px solid #000;
+		width: 400px;    
+		margin: 20px auto;    
+		text-align: left;      
+		font-size: 20px;
+	}
+
+	.card-img-wh{
+		box-shadow: 6px 10px 7px whitesmoke;
+		border-radius: 15px; 
+		border: 2px solid #ccc;     
+		padding: 20px;            
+		background-color: rgb(179, 174, 174); 
+		
+		width: 400px;    
+		margin: 20px auto;    
+		text-align: left;      
+		font-size: 20px;
+
+	}
+
+
+		
+
+	a {
+		text-decoration: none;
+		-webkit-transition: all .3s ease;
+		transition: all .3s ease; }
+	
+	.card-container {
+		max-width: 850px;
+		margin: 0 auto;
+		padding: 0 15px; }
+	
+	@media screen and (min-width: 800px) {
+		.flex-container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex; } }
+	
+	.card {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 50%;
+		flex: 1 1 50%;
+		border: 1px solid #efefef;
+		margin: 15px 0;
+		-webkit-box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+		box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+		-webkit-transition: all .3s ease;
+		transition: all .3s ease;
+		position: relative; }
+		.card:hover {
+		-webkit-box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+		box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2); }
+		.card h1 {
+		margin: 0;
+		font-size: 1.75rem;
+		line-height: 1.2; }
+		.card p {
+		margin: 0 0 30px;
+		color: #666666; }
+		.card .subtitle {
+		margin: 0 0 15px;
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: #E76C67; }
+		.card .card-image {
+		height: 200px;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat; }
+		.card .card-content {
+		padding: 30px 30px 110px; }
+		.card .card-details {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0; }
+		.card .card-details-inner {
+		border-top: 1px solid #efefef;
+		margin: 0 30px;
+		padding: 30px 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center; }
+		.card .options a {
+		color: #666666; }
+		.card .options a:hover {
+			color: #222222; }
+		.card .options .fa {
+		margin-right: .25rem; }
+	
+	@media screen and (min-width: 800px) {
+		.card {
+		margin: .5rem; } }
+
+	/* a way to use this cards is using this organization
+	<div class="flex-container">
+			<div class="card" style="">
+				<div class="card-image" style="background-image: url()"></div>
+				<div class="card-content">
+					<h1></h1>
+					<p></p>
+					<div class="subtitle"></div>
+					<div class="card-details">
+						<div class="card-details-inner">
+						<div class="read-more"><a class="button-card" href=""></a></div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+	*/
+
+
+
+	.card-section {
+		background-color: #ffffff;
+		margin: 0 20px 20px 20px;
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+	/* most of these classes have to be used with section card */
+	.card-section-contact-info {
+		background-color: #ffffff;
+		padding: 20px;
+		border-bottom: 2px solid #0056b3;
+		margin-bottom: 20px;
+	}
+
+	.card-section-contact-info p {
+		margin: 5px 0;
+	}
+
+
+	/* Section-specific styles */
+	.card-section-2-columns ul {
+		columns: 2;
+		column-gap: 20px;
+	}
+
+
+	.card-section-vertical-list{
+		display:flex;
+		width:200px;
+		padding-bottom: 0;
+
+	}
+
+	.card-section-vertical-list li{
+		margin-right: 10px;
+	
+	}
+
+	.imglinks{
+		margin:0px 10px;
+		text-align: center;
+		position: relative;
+	}
+	.imglinks a {
+		text-decoration:none;
+	}
+
+	.imglinks a img{
+		border-radius: 10px;
+		width: 100%;
+		height: 20em;
+		object-fit: cover;
+		filter: blur(2px);
+	}
+
+	.imglinks a img:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0px 8px 4px rgba(0,0,0,0.2);
+	
+		}
+
+	.imglinks a p{
+		margin: 0;
+		text-decoration: none;
+		color: #212529;
+		font-family: sans-serif;
+		font-size: 1.2em;
+		font-weight: bolder;
+	}
+
+/* card end */
+
+/* btn */
+	.btn{
+    border-radius: 25px;
+    padding: 05px 30px 05px 30px;
+    border: 3px solid#0056b3;
+    background-color: #0056b3;
+    color:  whitesmoke;
+    font-size: 20px;
+	}
+
+	.btn:hover{
+		background-color: #70b1ff;
+		transform: scale(1.05);
+	}
+
+	.btn-grn{
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 12px; /* Rounded corners */
+		transition: background-color 0.3s, transform 0.3s; /* Hover effect */
+	}
+
+	.btn-grn:hover{
+		background-color: #70b1ff;
+		transform: scale(1.05);
+	}
+
+
+
+	.btn-hol{
+		border-radius: 25px;
+		padding: 05px 30px 05px 30px;
+		border: 3px solid #70b1ff;
+		background-color:#70b1ff ;
+		color:  whitesmoke;
+		font-size: 20px;
+	}
+
+	.btn-hol:hover{
+		background-color:#0056b3;
+		transform: scale(1.05);
+	}
+
+	
+	.button-card {
+		display: block;
+		font-size: 1rem;
+		background: #9E829C;
+		border: 1px solid #9E829C;
+		padding: 10px 15px;
+		color: white;
+		text-decoration: none;
+		font-weight: 700;
+		text-align: center; }
+	.button-card:hover, .button-card:focus {
+		background: #9E829C;
+		border: 1px solid #9E829C; }
+
+	.button-links{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+		} 
+
+		/* CSS */
+	.button-29 {
+	align-items: center;
+	appearance: none;
+	background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+	border: 0;
+	border-radius: 6px;
+	box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: "JetBrains Mono",monospace;
+	height: 48px;
+	justify-content: center;
+	line-height: 1;
+	list-style: none;
+	overflow: hidden;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	transition: box-shadow .15s,transform .15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow,transform;
+	font-size: 18px;
+	/* Adjust vertical positioning */
+	}
+
+	.button-29:focus {
+	box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+	}
+
+	.button-29:hover {
+	box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+	transform: translateY(-2px);
+	}
+
+	.button-29:active {
+	box-shadow: #3c4fe0 0 3px 7px inset;
+	transform: translateY(2px);
+	}
+	.button-container {
+	position: absolute;
+	top: 46%;
+	left: 2%;
+	
+	}
+	.button-container .button-29:first-child {
+	left: 2%; /* Position first button */
+	}
+
+	.button-container .button-29:nth-child(2) {
+	left: 12%; /* Position second button */
+	}
+/* btn end */
+
+/* foooter */
+	 .footer {
+	background-color: #9E829C;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+  }
+  .footer ul{
+	margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  .footer ul li{
+	position: relative;
+	display: inline-block;
+	list-style-type:none;
+	margin: 0 15px;
+	padding: 0;
+	
+	}
+	.footer li a{
+		color: #000;
+		display: block;
+		text-decoration:none;
+	}
+	
+	
+
+	@media only screen and (max-width:720px){
+		.footer{
+			text-align:center;
+		}
+		
+		.footer-left{
+			float:none;
+			padding:10px 0px 0px 0px;
+			display:block;
+		}
+		
+		.footer-right{
+			float:none;
+			padding:0px 0px 0px 0px;
+			display:block;
+		}
+
+	}
+/* footer end */
+
+/* nav */
+	.navbar-norm {
+		width: 100%;
+		z-index: 10;
+		position: fixed;
+		font-size: 16px;
+		background-color: #36373a;
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+	
+	.navbar-norm img {
+		height: 40px; /* Adjust logo size */
+	}
+	
+	.navbar-norm ul {
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		justify-content: flex-end;
+	}
+	
+	.navbar-norm li {
+		margin: 0 15px;
+	}
+	
+	.navbar-norm li a {
+		color: white;
+		text-decoration: none;
+		padding: 8px;
+	}
+	
+	.hamburger {
+		display: none;
+		font-size: 30px;
+		color: white;
+		cursor: pointer;
+	}
+	
+	@media (max-width: 768px) {
+		.navbar-norm ul {
+		display: none;
+		}
+	
+		.hamburger {
+		display: block;
+		}
+	
+		/* Sidebar styling */
+	.sidebar {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+		right: 0;
+		background-color: #36373a;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+		display: block;
+		flex-direction: column; /* Stacks items vertically */
+		justify-content: center; /* Centers content vertically */
+		align-items: center; /* Centers content horizontally */
+	}
+	
+	.sidebar a {
+		padding: 16px 32px; /* Adjust padding for more space */
+		text-decoration: none;
+		font-size: 25px;
+		color: white;
+		display: flex;
+		justify-content: center; /* Centers text horizontally */
+		align-items: center; /* Centers text vertically */
+		transition: 0.3s;
+		width: 100%; /* Optional: makes the anchor take full width */
+		text-align: center; /* Centers the text inside the link */
+		margin-top: 50px;
+	}
+	
+	
+		.sidebar .closebtn {
+		position: absolute;
+		top: 0;
+		right: 2px; /* Adjusted close button to the right */
+		font-size: 36px;
+		margin-right: 2px;
+		}
+	
+		.navbar-norm.active ul {
+		display: none;
+		}
+	}
+	
+	/* When the sidebar is open */
+	.sidebar.open {
+		width: 360px; /* Width of the sidebar */
+	}
+	
+	@media (max-width: 400px) {
+		.sidebar a {
+		font-size: 18px;
+		}
+	}
+  
+/* Nav end */

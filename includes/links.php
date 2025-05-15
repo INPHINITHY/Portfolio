@@ -12,4 +12,5 @@
 <link rel="manifest" href="./../assets/favicon_io/site.webmanifest">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="./../css-library/style.css" rel="stylesheet" type="text/css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <title>AUSTIN N. DWOMOH</title>
